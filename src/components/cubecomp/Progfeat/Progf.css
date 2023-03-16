@@ -1,0 +1,113 @@
+/* cardio program */
+img{
+    display: block;
+}
+.c-pg-child{
+    display: flex;
+    /* align-items: top; */
+    width: 98%;
+ 
+}
+.pgtitle{
+    position: relative;
+}
+.pgtitle img{
+    max-height: 329px;
+  
+}
+
+.pgtitle h3{
+    font-size: 36px;
+    margin: 0;
+    top: 33%;
+    color: white;
+    left: 12%;
+    font-family: 'Lato';
+    margin: 0;
+    position: absolute;
+}
+.mpg-feature{
+    display: none
+}
+.cpg-card img{
+    width: 100%;
+}
+.cpg-allcard{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 10px;
+    overflow-x: auto;
+    justify-content: left;
+    scroll-behavior: smooth;
+
+}
+
+.cpg-allcard::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.cpg-card{
+    min-width: 405px;
+    /* transition: transform 5s linear infinite; */
+    
+}
+
+.cpg-card div{
+    background-color: rgba(19, 72, 112, 0.8);
+    padding: 17px 0;
+    text-align: center;
+}
+.cpg-card h3{
+    font-size: 18px;
+    margin: 0;
+    color: white;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+}
+
+@media screen and (max-width:600px){
+    /* c-program */
+.cpg-card{
+    min-width: 100%;
+    animation: scroll 8s  linear infinite;
+}
+@keyframes scroll{
+    100%{
+        transform: translatex(-205%);
+    }
+}
+.pgtitle img{
+    display: none;
+    
+}
+.pgtitle >h3{
+    display: none;
+}
+.c-pg-child{
+    width: 99%;
+    flex-direction: column;
+}
+.cpg-allcard{
+    align-items: center;
+    justify-content: left;
+}
+.cpg-allcard .sal{
+ left: -6px;
+  
+}
+.cpg-allcard .sr{
+    right:0;
+}
+.mpg-feature{
+    display: block;
+    font-size: 26px;
+    margin: 0;
+    margin-left: 19px;
+    margin-bottom: 10px;
+    color: #051827;
+}
+
+}

@@ -1,0 +1,255 @@
+
+/* position fixed */
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:76px ;
+    position: relative;
+    border-bottom: 2px solid #d4d5d7;
+    background:#fff;
+
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+    
+}
+.nav-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 100%;
+    /* width: 97rem; */
+    width: 85%;
+    /* height: 5rem; */
+    z-index:6;
+}
+
+.nav-container1{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 100%;
+}
+.navc1-child{
+    display: flex;
+    gap:15px;
+    flex-grow: 1;
+}
+#nav-logo {
+  width: 175px;
+  display: flex;
+  justify-content: center;
+  margin-top: 7px;
+}
+.nav-logo img{
+    width: 100%;
+    object-fit: cover;
+}
+.nav-item{
+    color: #143566;
+    font-weight: 600;
+    font-size: 17px;
+}
+/* .user-menu-icon{
+    height: 30px;
+} */
+.nav-container2{
+    display: flex;
+    flex:1;
+    justify-content: space-between;
+   
+    min-width: 74%;
+
+}
+.link-btn{
+    background:none;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    display: none;
+
+}
+.nav-btn{
+    margin:0 15px;
+    font-size: 16px;
+   
+    /* transition: border-height 0.6s linear; */
+    
+}
+.nav-btn:hover{
+    border-bottom: 3px solid #32c0d4;
+   
+   
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-auth{
+    display: flex;
+    gap: 10px;
+}
+.nav-auth button{
+    font-size: 18px;
+}
+.nav-auth .login{
+    border: none;
+    background: none;
+    color: #143566;
+    font-weight: 600;
+    cursor: pointer;
+    
+
+}
+.nav-auth .signin{
+    background-color: #32c0d4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: box-shadow 0.35s;
+    margin-left: -11px;
+}
+.nav-auth .signin:hover{
+    box-shadow: -1px 2px 3px #9b9da1;
+}
+
+
+/* searchbar */
+form{
+    
+    width: 100%;
+   
+    position: relative;
+    padding: 0 12px;
+    /* height: 50px; */
+}
+form .input-bar{
+ 
+    height: 23px;
+    padding: 3px 6px 3px 35px;
+    margin:0;
+    width: 90%;
+    font-size: 13px;
+    border: 1px solid rgb(162, 162, 162) ;
+    border-radius: 3px;
+}
+
+form svg{
+    position: absolute;
+    top:3px;
+    left: 16px;
+    color: rgb(255, 255, 255);
+    padding:5px;
+    background-color:#134870 ;
+    border-radius: 5px;
+   
+}
+
+
+
+
+@media screen and (max-width:1200px){
+    .navbar{
+        height: auto;
+        height: 76px;
+        /* border-bottom: 0.5px solid white; */
+    }
+    .nav-center{
+        flex-direction: column;
+    }
+    .nav-container1{
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    .navc1-child{
+      flex-grow: 0;
+      gap:6px
+    }
+    .nav-container2{
+        left: 0%;
+        justify-content: center;
+         margin-left: 0;
+         display: flex;
+    flex-direction: column;
+        width: 37%;
+        background-color: rgb(12 50 78 / 93%);;
+        padding: 24px 0;
+        position: absolute;
+    top: 78px;
+    transition: all 300ms ease;
+    z-index: 10;
+    min-width:36% ;
+    padding-left: 20px;
+    
+    }
+
+    .nav-links{
+        flex-direction: column;
+        align-items: flex-start;
+       
+
+    }
+    #nav-logo {
+        margin-top: 5px;
+        max-width: 44%;
+
+    }
+    .link-btn{
+        display: block;
+        color:#143566;
+       transition: 0.4s box-shadow;
+    }
+    .link-btn:hover{
+        box-shadow: 0px 2px 3px grey;
+        border-radius: 5px;
+        
+    }
+    
+    .navc1-child form svg, #menu-btn svg{
+        width: 23px;
+        height: 23px;
+        stroke-width: 1;
+    }
+    #menu-btn{
+        width: 50px;
+    }
+    #nav-signin{
+        display: none;
+    }
+    .nav-btn{
+        
+        font-size: 16px;
+        margin: 15px 0;
+        color: white;
+        border-bottom:3px solid #1a3c6e80;
+    }
+    .nav-auth{
+        align-items: flex-start;
+        padding:10px 17px;
+        margin-top: 103px;
+    margin-right: 10px;
+        display: flex;
+        gap:25px;
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .nav-auth button{
+        font-size: 17px;
+    }
+    .nav-auth .login{
+        color: white;
+        border-bottom: 3px solid rgba(12, 51, 78, 0.1)
+    }
+    .nav-auth .login:hover{
+        border-bottom: 3px solid #32c0d4;
+    }
+ }

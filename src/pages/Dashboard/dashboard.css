@@ -1,0 +1,46 @@
+.dashboard-container{
+    width: 67%;
+    margin: 30px auto;
+    /* border: 2px solid #cccbcb; */
+    padding: 20px 30px
+}
+.d-header h3{
+    font-size: 30px;
+    color: var(--primaryblue);
+}
+.dashboard h4{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 23px;
+    color: var(--cyanblue);
+}
+.d-appointment{
+    border-top: 1px solid grey;
+   
+    margin-bottom: 19px;
+    padding: 10px 0;
+
+}
+.all-appointments{
+    border-bottom: 1px solid grey;
+}
+#logout-btn{
+    margin-top: 20px;
+    padding: 9px 26px;
+    font-size: 17px;
+    background-color: #a82626;
+    transition: box-shadow 0.3s ease-in-out;
+    transition: background-color 0.1s ease-in-out;
+   cursor: pointer;
+    color: white;
+    border: red;
+}
+#logout-btn:hover{
+    background-color: #d04343;
+}
+@media screen and (max-width:600px){
+    .dashboard-container{
+        width: 80%;
+       
+    }
+}

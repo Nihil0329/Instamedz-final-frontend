@@ -1,0 +1,119 @@
+.hifi-header{
+ 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* hifiform */
+.hifi-appform{
+    /* margin-bottom: 30px; */
+}
+.hifi-appform  .cube-app-container{
+    margin: 50px auto;
+    border-radius: 15px;
+    width: 70%;
+}
+.hifi-appform .c-app-t1{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+/* hifi success */
+.hifi-success{
+    height: 54vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.success-box{
+    width: 311px;
+    height: 303px;
+    background: #E0F2FF;
+    border: 2.56667px dashed #134870;
+    border-radius: 10.2667px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.success-box-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    color: rgba(19, 72, 112, 1);
+}
+.success-box h3{
+    font-size: 20px;
+}
+.hifi-success{
+    min-height: 537px;
+    flex-direction: column;
+}
+.goback{
+    margin-top: 70px;
+    width: 31%;
+}
+.hifi-success .goback p:nth-of-type(1){
+    color: var(--primaryblue);
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.hifi-success .goback p{
+    color: var(--cyanblue);
+    text-align: center;
+    font-size: 18px;
+}
+
+.hifi-success .goback p a{
+    color: var(--primaryblue);
+    text-decoration: underline 1px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:600px){
+
+    .apphifi .app-header-title h1{
+        font-size: 26px;
+    
+    }
+    .apphf-c-c1-cards{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .apphf-c-c1-card{
+        min-width: 100%;
+    }
+    .apphf-c-c1-card img{
+        width: 100%;
+    }
+    .apphf-c-c1-title{
+        font-size: 19px;
+    }
+    
+    /* hf-doc */
+
+    /* hifiform */
+    .hifi-appform .cube-app-container{
+        width: 100%;
+    }
+
+    /* hifi success */
+   
+    .success-box{
+        width: 258px;
+    height: 236px;
+    }
+    .success-box h3{
+        font-size: 19px;
+
+    }
+    .goback{
+ 
+        width: 100%;
+    }
+
+}

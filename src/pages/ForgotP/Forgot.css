@@ -1,0 +1,48 @@
+.fp-maincontainer{
+    width: 46%;
+    margin: 0 auto;
+}
+
+.fp-maincontainer h4{
+    font-size: 18px;
+    color: var(--primaryblue);
+    margin-bottom: 8px;
+}
+.fp-maincontainer input{
+    padding: 3px 11px;
+    font-size: 15px;
+    width: 50%;
+
+}
+.fp-maincontainer button{
+    font-size: 15px;
+    padding: 3px 5px;
+    background-color: var(--cyanblue);
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+.fp-maincontainer button:hover{
+    box-shadow: 1px 1px 3px grey;
+}
+
+@media screen and (max-width:600px) {
+    .fp-maincontainer{
+        width: 100%;
+    }
+    .fp-maincontainer input{
+        padding: 7px 11px;
+        font-size: 15px;
+        width: 90%;
+    
+    }
+    .fp-maincontainer>div{
+        width: 90%;
+        padding: 0 10px;
+    }
+    .fp-maincontainer button{
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+   
+}

@@ -1,0 +1,159 @@
+.about {
+    background: linear-gradient(176.79deg, rgba(20, 73, 113, 0.2795) 43.83%, rgba(255, 255, 255, 0) 97%);
+}
+.about-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+.about-hero img{
+    width: 41%;
+}
+.about-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 84%;
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+.about-product img{
+    width: 41%;
+}
+.about-campaign{
+    width: 57%;
+    margin: 0 auto;
+}
+.ab-container1{
+    display: flex;
+    gap: 20px;
+    background: linear-gradient(98.01deg, #C7DDE4 26.34%, rgba(199, 221, 228, 0) 100%);
+    border-radius: 40px;
+    padding: 46px 53px;
+}
+.ab-container1 img{
+    height: 83px;
+}
+.ab-container2{
+    margin-top: 45px;
+}
+.about-address{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.about-address img{
+    width: 40%;
+}
+.about h4,h5{
+    margin-bottom: 5px;
+}
+.about .blog{
+    width: 77%;
+  max-height: 500px;
+  height: 70vh;
+  position: fixed;
+  transform: translate(10%,20%);
+  border-radius: 0.4rem;
+background-color: rgb(255, 255, 255);
+/* border: 2px solid black; */
+display: flex;
+flex-direction: column;
+    
+}
+.about .blog button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #d04343;
+    color: white;
+    padding: 8px 12px;
+    font-size: 15px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.about .blog button:hover{
+    box-shadow: -2px 2px 5px grey;
+}
+ pre{
+    font-size: 17px;
+    
+    /* overflow: overlay; */
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+.pop_main{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 100;
+    }
+    .tc{
+        margin: 18px 10%;
+    }
+.tc-btn{
+    background: none;
+    font-size: 23px;
+    color: var(--primaryblue);
+    cursor: pointer;
+    border: 3px solid #143566;
+    border-radius: 5px;
+    padding: 5px 22px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    transition: all ease-in-out 0.3s;
+}
+.tc-btn:hover{
+    background: #134566;
+    color: white;
+}
+
+@media screen and (max-width:600px){
+    .about-hero{
+flex-direction: column-reverse;
+
+    }
+    .about-hero img{
+        width: 100%;
+    }
+    .about-product{
+        flex-direction: column;
+        
+            }
+            .about-product img{
+                width: 100%;
+            }
+    .about-campaign{
+        width: 95%;
+    }
+    .about-campaign img{
+        display: none;
+    }
+    .ab-container1{
+        padding: 27px 17px;
+    }
+    .about-address{
+        display: flex;
+        flex-direction: column;
+        flex: 1 1;
+        gap: 20px;
+    }
+    .about-address img{
+        width: 90%;
+    }
+    .about .blog{
+        transform: translate(6%,20%);
+    }
+}

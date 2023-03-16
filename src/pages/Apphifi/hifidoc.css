@@ -1,0 +1,229 @@
+
+.apphifi{
+    background: #f8f9fa;
+}
+.hifi-header{
+    display:flex;
+}
+
+
+.hf-doc-container  aside{
+    background: linear-gradient(180deg, rgba(20, 53, 102, 0.76) 0%, rgba(50, 192, 212, 0.8) 99.64%);
+border-radius: 30px;
+}
+.hf-doc-container  aside h3{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.hf-doc-container{
+    display: flex;
+    width: 75%;
+    margin: 60px auto;
+    
+    gap: 40px;
+}
+.hf-doc-side-container{
+    width: 26%;
+}
+.hf-doc-side-container img{
+    width: 100%;
+}
+.hf-doc-main-container{
+    flex: 1;
+background: linear-gradient(180deg, rgba(20, 53, 102, 0.76) 0%, rgba(50, 192, 212, 0.8) 99.64%);
+    border-radius: 39px;
+    color: white;
+    padding: 30px 42px 20px 42px;
+    
+    margin: 0 auto;
+   
+}
+.hf-child-docmain{
+  
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    overflow-y: auto;
+    height: 880px;
+}
+.hf-child-docmain::-webkit-scrollbar-thumb{
+    background-color: #389AE4;
+    border-radius: 0px;
+}
+.hf-child-docmain::-webkit-scrollbar{
+    width: 10px;
+}
+.hf-child-docmain::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 1px rgb(255, 254, 254); 
+}
+.hf-doc-card{
+    display: flex;
+    background: linear-gradient(109.56deg, rgba(50, 192, 212, 0.51) 0%, rgba(255, 255, 255, 0.17) 126.32%);
+   
+    border-radius: 25px;
+    min-height: 200px;
+    margin-right: 14px;
+}
+
+.hfdc-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    background:linear-gradient(109.56deg, rgba(50, 192, 212, 0.595) 0%, rgba(255, 255, 255, 0.1615) 126.32%);
+    width: 60%;
+    border-radius:25px ;
+}
+.hfdc-img{
+ width: 150px;
+ height: 150px;
+ /* width: auto; */
+ background: rgba(228, 228, 228, 0.79);
+ border-radius: 50%;
+}
+.hfdc-img img{
+    width: 100%;
+    height: 100%;
+    /* height: 150px;
+    width: auto; */
+    background: rgba(228, 228, 228, 0.79);
+    border-radius: 50%;
+}
+.doc-degree span{
+    background: #405ea0;
+    padding: 3px;
+    font-size: 14px;
+    margin-right: 3px;
+    border-radius: 5px;
+}
+.hfdc-text h4,p {
+    margin: 0;
+}
+.hfdc-text h4,.hfdc-fh h4{
+ font-size: 18px;
+ font-weight: 500;
+ display: flex;
+ margin: 0;
+}
+.hfdc-text p , .hfdc-fh p{
+font-size: 16px;
+font-weight: 400;
+}
+.hfdc-fh{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.hfdc-fh p,h4{
+  
+    /* font-size: 20px;
+    font-weight: 600; */
+}
+.hfdc-fh button{
+    background: rgba(0, 255, 117, 0.52);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 9px 28px;
+  
+    border:none;
+    color: white;
+}
+.hifi-pgno{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.hifi-pgno ul{
+    display: flex;
+    width: 55%;
+    justify-content: space-around;
+    align-items: center;
+}
+.hifi-pgno li{
+    font-size: 18px;
+}
+.hf-doc-side-container img:nth-of-type(2){
+    display: none;
+}
+
+
+
+
+@media screen and (max-width:600px){
+    .hf-doc-side-container img:nth-of-type(1){
+        display: none;
+    }
+    .hf-doc-side-container img:nth-of-type(2){
+        display: block;
+    }
+    .hf-doc-side-container{
+      display: none;
+    }
+    .hf-doc-side-container img{
+        width: 100%;
+    }
+
+    .hf-doc-card{
+        flex-direction: column;
+        min-height: auto;
+    }
+    .hf-doc-cardchild img{
+        width: 150px;
+    }
+    .hf-doc-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .hfdc-fh-text{
+        display: flex;
+        gap: 3px;
+        margin-bottom: 10px;
+    }
+    .hfdc-fh-text >div{
+        display: flex;
+        flex-direction: column;
+    }
+    .hfdc-fh p{
+        font-size: 19px;
+    }
+    .hfdc-fh-text span{
+        font-size: 17px;
+    }
+    .hf-doc-main-container{
+        
+        padding: 30px 20px 20px 30px;
+    }
+    .hfdc-text{
+        width: 100%;
+        gap: 10px;
+        padding: 5px 0px;
+        flex-direction: column;
+    }
+    .hfdc-text h4{
+        font-size: 20px;
+    }
+    .hfdc-text p{
+        font-size: 18px;
+    }
+    .hfdc-fh{
+        width: 100%;
+    }
+ 
+    .hfdc-fh button{
+        padding:9px 34px
+    }
+    .hifi-pgno ul{
+        width: 87%;
+    }
+
+}

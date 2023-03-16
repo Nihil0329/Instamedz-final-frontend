@@ -1,0 +1,355 @@
+.impulse-page img{
+    width: 100%;
+    /* height: 80%; */
+}
+.impulse-page header{
+   width: 100%;
+   height: 80%;
+}
+.impulse-hero1{
+ 
+}
+.impulse-hero1 img:nth-child(2)
+{
+    display: none;
+}
+.impulse-hero2 img:nth-child(2)
+{
+    display: none;
+}
+.impulse-hero2 img:nth-child(1){
+display: block;
+}
+
+.impulse-hero2{
+    width:80%;
+    margin:20px auto;
+}
+.feature-text{
+    font-size: 30px;
+}
+.imp-c{
+    width:90%;
+    margin:10px auto;
+}
+.impulse-page h3{
+    margin:5px 0 3px 0;
+    margin-left: 5%;
+    font-size: 25px;
+    
+}
+
+.impulseform{
+    display: flex;
+    background-color:#94DFD3 ;
+    background-image: url(./formbg.svg) ;
+    background-repeat: no-repeat;
+    justify-content: end;
+    width: 90%;
+    padding:20px 0px;
+    margin:auto;
+
+}
+.impulseform-container2 .hc-container2-child{
+    max-width: 60%;
+}
+
+.impulseform p,h2{
+    text-align: center;
+
+}
+/* video */
+.direction-use{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+.direction-use-child{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.direction-use-child svg{
+    
+}
+.direction-use-child  svg{
+    /* position: absolute; */
+   
+    width: 100%;
+    height: 100%;
+    
+
+    
+}
+.direction-use-child .left-icon{
+    cursor: pointer;
+    position: absolute;
+    width: 35px;
+    height: 40px;
+    background:none;
+    border: none;
+    z-index: 10;
+    
+    padding:0
+
+}
+.direction-use-child .right-icon{
+    cursor: pointer;
+   
+    width: 35px;
+    height: 40px;
+    background:none;
+    border: none;
+    z-index: 10;
+    
+    padding:0
+
+}
+
+.direction-use-child button:hover{
+    background-color: rgba(0,0,0,0.1);
+    padding:1px;
+    border-radius: 50%;
+}
+.card-video-container{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    overflow-x:auto ;
+    scroll-behavior: smooth;
+    gap: 20px;
+}
+
+.card-video{
+    min-width: 335px;
+    /* margin-left: 20px; */
+    background-color:#E0F2FF ;
+    border-radius: 8px;
+    
+    /* object-fit: cover; */
+}
+.card-video:nth-of-type(4) img{
+ height: 224px;
+}
+#cv-container::-webkit-scrollbar{
+    display: none
+}
+.card-video h4{
+   font-size: 16px;
+   margin: 0;
+   margin:8px 5px;
+   text-align: center;
+}
+.card-video h4 span{
+    font-weight: 400;
+}
+.card-video video{
+    width: 100%;
+    /* height: 543px; */
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+}
+.direction-use h3{
+   margin-left: 0;
+   margin-bottom: 10px;
+}
+
+
+.impulsedevice  .impdevicem{
+    display: none;
+ }
+ .impulsedevice  .impdevicew{
+  display: block;
+ }
+
+
+ /* auto report container */
+ .autoreport{
+    margin-bottom: 20px;
+
+ }
+ .autoreport-title h3{
+    margin: 24px 0;
+    margin-left: 5%;
+    font-size: 38px;
+    color: #143566;
+ }
+ .autoreport .card-video-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin: 0 auto;
+    width: 87%;
+    gap: 27px;
+    padding:  40px 27px;
+    background: linear-gradient(90deg, rgb(11 33 66 / 76%) 0%, rgba(50, 192, 212, 0.8) 99.64%);
+ }
+
+ /* .autoreport .card-video-container::-webkit-scrollbar{
+    -webkit-appearance:inheritsdaf
+} */
+ .autoreport .card-video{
+    min-width: 312px;
+    box-shadow: 7px 5px 8px #4c647b;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background: #608ea0;
+    
+ }
+ .autoreport .card-video img{
+    border-top-right-radius: 12px;
+    border-top-left-radius: 11px;
+ }
+ .autoreport  .card-video:nth-of-type(4) img {
+    height: auto;
+}
+.autoreport  .card-video:nth-of-type(7) img,.card-video:nth-of-type(9) img {
+    height: 198px;
+}
+.autoreport
+ .repo-img-container{
+    flex:1 1;
+ }
+ .autoreport span{
+    font-size: 18px;
+    color: wheat;
+ }
+
+/* ---testimonials--- */
+.imptestimonial >div{
+    width: 90%;
+    margin: 0 auto;
+}
+.imp-testimonial-title h3{
+    margin-left: 0;
+}
+.imp-test-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 26px;
+    row-gap: 50px;
+}
+
+
+ .test-cardcontainer{
+    
+    /* background-image: linear-gradient(to bottom right, rgba(56, 154, 228, 1), white); */
+    background: linear-gradient(101.84deg, #389AE4 -12.71%, #FFFFFF 92.44%);
+box-shadow: 5px 5px 4px rgba(19, 72, 112, 0.25);
+border-radius: 25px;
+padding: 10px;
+color: rgba(19, 72, 112, 1);
+display: flex;
+    align-items: center;
+    /* justify-content: center; */
+ }
+ .test-cardcontainer article{
+    padding-top: 10px;
+    padding-left: 10px;
+ }
+
+ .test-cardcontainer article h4{
+    margin: 0;
+    font-size: 24px;
+ }
+ .test-cardcontainer article .t12{
+   margin-top: 3px;
+ }
+ .imph3-container{
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width:1000px) {
+    .imp-test-container{
+        overflow-x: auto;
+     }
+     .imp-test-container::-webkit-scrollbar{
+        -webkit-appearance: none;
+   }
+   .test-cardcontainer{
+    width: 256px;
+    height: 230px;
+   }
+}
+@media screen and (max-width:600px){
+    .impulse-hero1 img:nth-of-type(1)
+    ,.impulse-hero2 img:nth-of-type(1){
+        display: none;
+    }
+    .impulse-hero1 img:nth-of-type(2)
+    ,.impulse-hero2 img:nth-of-type(2){
+        display: block;
+    }
+    .impulse-hero1{
+        position: relative;
+    top: -3px;
+    }
+    .impulseform-container2{
+        display: flex;
+        justify-content: center;
+    }
+    .impulseform-container2 .hc-container2-child {
+        max-width: 100%;}
+    .impulseform{
+        background-image: none;
+    }
+    .impulsedevice  .impdevicem{
+       display: block;
+    }
+    .impulsedevice  .impdevicew{
+     display: none;
+    }
+
+    .card-video{
+        min-width: 100%
+    }
+     /* autoreport */
+    .autoreport{
+        margin-bottom: 30px;
+    }
+    .autoreport-imgcontainer >div{
+        flex-direction: column;
+        gap: 10px;
+        width: 80%;
+
+    }
+    .impulse-page img{
+        margin-bottom: 0;
+     }
+     /* testimonicals */
+     .imp-test-container{
+        overflow-x: auto;
+     }
+     .imp-test-container::-webkit-scrollbar{
+        -webkit-appearance: none;
+   }
+     .test-cardcontainer{
+        min-width: 256px;
+        min-height: 230px;
+     }
+     .imp-test-cards{
+        row-gap: 40px;
+     }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

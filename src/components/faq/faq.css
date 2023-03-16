@@ -1,0 +1,64 @@
+
+/*----- faqs----- */
+.faqs{
+    margin-bottom: 20px;
+}
+.faqs >div{
+    width: 80%;
+    margin:0 auto;
+    
+}
+.faqs-title h2{
+    font-size: 48px;
+    color: #143566;
+}
+.faq-card{
+    display: flex;
+    flex-direction: column;
+border-bottom: 2px solid rgb(202 202 202 / 42%);
+}
+.faq-ques{
+    display: flex;
+    justify-content: space-between;
+}
+.faq-ques h3{
+    cursor: pointer;
+    padding: 32px 32px 32px 0;
+    font-size: 20px;
+    font-family: "poppins";
+    font-weight: 500;
+    color: #143566;
+}
+.faq-btn{
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+.faq-ans{
+    font-size: 15px;
+}
+/* .faqs-allcard:hover > article:hover p:nth-child(2){
+    display: block;
+    
+
+} 
+.faqs-allcard:hover > article:hover p:nth-child(1){
+    text-align:left;
+    display: none;
+} */
+
+
+
+
+@media screen and (max-width:600px){
+  
+    .faqs-title h2{
+        font-size: 30px;
+        color: #143566;
+    }
+    .faq-ques h3{
+        padding: 25px 25px 25px 0;
+    }
+}
+
+

@@ -1,0 +1,27 @@
+.fit-main-container img{
+width: 100%;
+
+}
+.fit-main-container .fsm1{
+    display: none;
+}
+.fit-childrens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 105px;
+    padding: 40px 45px;
+}
+@media  screen and (max-width:600px) {
+    .fit-main-container .fsm1{
+        display: block;
+    }
+    .fit-main-container .fs1{
+display: none;
+    }
+    .fit-childrens{
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px 45px;
+    }
+}
