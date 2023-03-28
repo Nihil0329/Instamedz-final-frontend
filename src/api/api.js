@@ -1,7 +1,7 @@
 import axios from "axios"
 const API=axios.create({
-    // baseURL:'https://instamedzbackend.onrender.com'
-    baseURL:'http://localhost:8000'
+    baseURL:'https://instamedzbackend.onrender.com'
+//     baseURL:'http://localhost:8000'
 })
 
 export const imgendpoint="https://ik.imagekit.io/instamedz/"
