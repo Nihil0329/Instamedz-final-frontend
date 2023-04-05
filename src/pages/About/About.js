@@ -10,7 +10,9 @@ function About() {
     <section className="about">
       <Navbar/>
       <div class="about-hero">
-        <h4 style={{ color: "rgba(20, 73, 113, 0.8)" }}>Instamedz, a virtual primary healthcare platform founded in 2020, aims to provide expert diagnostics and health check-up services that can be accessed from the convenience of home, work, or from anywhere. Since its beginnings, Instamedz is into healthcare industry</h4>
+        <h4 style={{ color: "rgba(20, 73, 113, 0.8)" }}>Instamedz a virtual primary health care platform founded in 2020 aims to provide expert diagnostics and health check-up services that can be accessed from the convenience of home/work/from anywhere. 
+The primary objective of Instamedz is to make high-quality healthcare accessible and affordable to all Indians.
+We are committed to provide our users with extremely precise, holistic, and expertly considered care so that they can make better healthcare decisions.</h4>
         <img src={require("../../assets/about/a1.png")} alt="" />
 
       </div>
