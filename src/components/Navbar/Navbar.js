@@ -33,7 +33,7 @@ function Navbar(props) {
           (showlink || dynamicWidth > 1200)  && 
         <div class="nav-container2">
           <div class="nav-links">
-            <a onClick={()=>navigate("/")} className="nav-item nav-btn">Home</a>
+            <a onClick={()=>navigate("/")} className="nav-item nav-btn">iHome</a>
             <a href="/about" className="nav-item nav-btn">About</a>
             <a onClick={()=>navigate("/consult")} className="nav-item nav-btn">Consultation</a>
             <a onClick={()=>navigate("/product")} href="/product" className="nav-item nav-btn">Impulse-12</a>
